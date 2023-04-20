@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15/04/2023, 6:57:57 p. m.
+    Author     : WORKING
+*/
+
+form {
+    margin-top: 200px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="checkbox"]:focus {
+    outline: none;
+    border-bottom: 1px solid #4CAF50;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a048;
+  }
+  
+  
+  form[action="/submit_canine"] {
+    background-color: #e6f3ff;
+    
+    background-size: cover;
+  }
+
+  form[action="/submit_feline"] {
+    background-color: #ffe6f3;
+    
+    background-size: cover;
+  }
+  
+  body {
+    background-image: url('https://png.pngtree.com/background/20210711/original/pngtree-cute-cat-seamless-pattern-kawaii-picture-image_1163683.jpg');
+  }
+  .formf{
+    margin-top: 25px;
+  }
+  .select{
+    margin-bottom: 15px;
+  }
